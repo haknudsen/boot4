@@ -1,0 +1,41 @@
+/* Scss Document */
+//My Text mixins
+/* Text Weights */
+.heavy{font-weight: 700}
+.thin{font-weight: 300}
+.italics{font-style: italic}
+/* Text Weights */
+.heavy{font-weight: 700}
+.thin{font-weight: 300}
+.white {color: $white}
+.black{
+    color: $black;
+    &{
+        color: $black;
+    }
+}
+.light {
+	color: lighten($brand-primary,20%);
+    &{
+        color: lighten($brand-primary,20%);
+    }
+}
+.dark {
+	color: darken($brand-primary,20%);
+    &{
+        color: darken($brand-primary,20%);
+    }
+}
+
+.highlight {
+	color: $brand-success;
+    &{
+        color: $brand-success;
+    }
+}
+.primary {
+	color: $brand-primary;
+    &{
+        color: $brand-primary;
+    }
+}
