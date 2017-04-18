@@ -1,6 +1,15 @@
 /* Scss Document */
 //custom elements
-.seal{max-height: 180px;margin: 0 auto;padding: $border_radius}
-.award{max-width: 360px;margin: 0 auto;padding: $border_radius}
-p{text-indent: $border_radius*2;margin-bottom: $border_radius}
-footer{padding: $spacer;margin-top: $border_radius;background: $brand-inverse;color:$brand-primary}
+.seal{max-height: 180px;margin: 0 auto;padding: $spacer}
+.award{max-width: 360px;margin: 0 auto;padding: $spacer}
+p{text-indent: $spacer*2;margin-bottom: $spacer}
+footer{padding: $spacer*2;margin-top: $spacer;}
+footer, nav{
+    color: shade($brand-primary,25%);
+    a{color:$white;
+    &:hover{
+        color:lighten( $brand-primary, 30% )
+    }
+    }
+}
+.cw{font-size: 1rem;vertical-align: super}

@@ -2459,13 +2459,19 @@ a.text-gray-dark:focus, a.text-gray-dark:hover { color: #101112 !important; }
 
 /* Scss Document */
 /* Scss Document */
-.seal { max-height: 180px; margin: 0 auto; padding: 0.25rem; }
+.seal { max-height: 180px; margin: 0 auto; padding: 1rem; }
 
-.award { max-width: 360px; margin: 0 auto; padding: 0.25rem; }
+.award { max-width: 360px; margin: 0 auto; padding: 1rem; }
 
-p { text-indent: 0.5rem; margin-bottom: 0.25rem; }
+p { text-indent: 2rem; margin-bottom: 1rem; }
 
-footer { padding: 1rem; margin-top: 0.25rem; background: #292b2c; color: #0275d8; }
+footer { padding: 2rem; margin-top: 1rem; }
+
+footer, nav { color: shade(#0275d8, 25%); }
+footer a, nav a { color: #fff; }
+footer a:hover, nav a:hover { color: #75bffe; }
+
+.cw { font-size: 1rem; vertical-align: super; }
 
 /* Scss Document */
 /* Text Weights */
