@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -2472,6 +2473,14 @@ footer a, nav a { color: #fff; }
 footer a:hover, nav a:hover { color: #75bffe; }
 
 .cw { font-size: 1rem; vertical-align: super; }
+
+body, html { height: 100%; }
+
+#sidebar { min-width: 130px; }
+
+.nav-link[data-toggle].collapsed:after { content: "тЦ╛"; }
+
+.nav-link[data-toggle]:not(.collapsed):after { content: "тЦ┤"; }
 
 /* Scss Document */
 /* Text Weights */
