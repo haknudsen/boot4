@@ -62,7 +62,7 @@
     background-color: $nav-tabs-active-link-hover-bg;
     border-color: $nav-tabs-active-link-hover-border-color $nav-tabs-active-link-hover-border-color $nav-tabs-active-link-hover-bg;
   }
-
+    .nav-link.active a{color: $nav-pills-active-link-color}
   .dropdown-menu {
     // Make dropdown border overlap tab border
     margin-top: -$nav-tabs-border-width;

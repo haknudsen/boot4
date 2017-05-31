@@ -16,11 +16,14 @@
   <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
     <div class="">
       <ul class="nav nav-tabs justify-content-center">
-        <li><a class="nav-item nav-link active" href="#">Home</a></li>
-        <li><a class="nav-item nav-link" href="#">Spokespeople</a></li>
-        <li><a class="nav-item nav-link" href="#">Whiteboard</a></li>
-        <li><a class="nav-item nav-link" href="#">Support</a></li>
-        <li><a class="nav-item nav-link" href="#">Testimonials</a></li>
+        <li class="nav-item nav-link active"><a href="#">Home</a></li>
+        <li class="nav-item dropdown"> 
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Spokespeople</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="#">Website Spokesperson</a> <a class="dropdown-item" href="#">Video Presentation</a> <a class="dropdown-item" href="#">Voice Over</a> </div>
+        </li>
+        <li class="nav-item nav-link"><a href="#">Whiteboard</a></li>
+        <li class="nav-item nav-link"><a href="#">Support</a></li>
+        <li class="nav-item nav-link"><a href="#">Testimonials</a></li>
       </ul>
       <!-- navbar-nav --> 
     </div>
@@ -45,8 +48,7 @@
       <p>We concentrate on video productions that enhance your primary vision without breaking your bank. As opposed to burning through tens or even several thousands on a "viral video", we suggest making recordings that work for you all day, every day conveying a reliable message to potential clients. By using an expert representative and supporting your message with content and design, you are exploiting rich media to impact your potential clients.</p>
       <p>With our Custom Video Presentations you get a Video Spokesperson, Professional Editing, Motion Graphics Compositing, alongside Images and Effects. Incredible for your Website Demonstration, Sales Video, or Product Walk-though.</p>
     </div>
-    <a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top award d-block"  alt="Winner in Video Production" src="//www.websitetalkingheads.com/images/video-production-winner.png"></a> 
-    </li>
+    <a href="#" data-toggle="tooltip" title="Winner Best Web Design Agencies - Video Production"><img class="card-img-top award d-block"  alt="Winner in Video Production" src="//www.websitetalkingheads.com/images/video-production-winner.png"></a> </li>
   <li class="media" id="best-spokesperson"> <a href="http://www.topseos.com/rankings-of-best-virtual-spokesperson-companies" data-toggle="tooltip" title="#1 in Video Spokesperson"><img class="card-img-top award d-block" src="http://websitetalkingheads.com/images/video-spokesperson-seal.png"  alt="Best in Video Spokesperson"  /></a>
     <div class="media-body">
       <h2>#1 Video Spokespeople</h2>
@@ -114,22 +116,22 @@
 </div>
 <section class="container-fluid m-5">
   <div class="media" id="what-is-spokesperson">
-   <div class="row">
-    <div class="col-lg-6">
-     <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="d-flex align-self-center embed-responsive-item" src="//www.youtube.com/embed/3Rsl9FWtwFw?rel=0" allowfullscreen></iframe>
-</div>
-  </div>
-  <div class="col-lg-6">
-    <div class="media-body">
-      <h2>Video Spokespeople</h2>
-      <h5>Experienced Professionals</h5>
-      <p>People use many terms for Spokespeople: Video Spokesperson, Virtual Spokesperson, Website Spokesperson, Web Spokesperson, Spokes-model, Walk On Actor, Virtual Actor, Person on website, Online Spokesperson.  All of our Spokespeople are Professionals with years of experience.</p>
-      <p>Our spokespeople are experienced professionals with a wide-range of backgrounds and training in spokesmodeling, acting, broadcast journalism, television, on camera promotions, and live performance.</p>
-      <p>As the online face of your business, a video spokesperson can deliver the exact message you want your visitors to hear. Our virtual spokespeople will impress your customers and increase your bottom line.</p>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="d-flex align-self-center embed-responsive-item" src="//www.youtube.com/embed/3Rsl9FWtwFw?rel=0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="media-body">
+          <h2>Video Spokespeople</h2>
+          <h5>Experienced Professionals</h5>
+          <p>People use many terms for Spokespeople: Video Spokesperson, Virtual Spokesperson, Website Spokesperson, Web Spokesperson, Spokes-model, Walk On Actor, Virtual Actor, Person on website, Online Spokesperson.  All of our Spokespeople are Professionals with years of experience.</p>
+          <p>Our spokespeople are experienced professionals with a wide-range of backgrounds and training in spokesmodeling, acting, broadcast journalism, television, on camera promotions, and live performance.</p>
+          <p>As the online face of your business, a video spokesperson can deliver the exact message you want your visitors to hear. Our virtual spokespeople will impress your customers and increase your bottom line.</p>
+        </div>
+      </div>
     </div>
-  </div>
-  </div>
   </div>
 </section>
 <!-- content container -->

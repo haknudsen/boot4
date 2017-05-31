@@ -645,12 +645,11 @@ $nav-tabs-justified-link-border-color:        #ddd !default;
 $nav-tabs-justified-active-link-border-color: $body-bg !default;
 
 $nav-pills-border-radius:     $border-radius !default;
-$nav-pills-active-link-color: $component-active-color !default;
+$nav-pills-active-link-color: $brand-primary;
 $nav-pills-active-link-bg:    $component-active-bg !default;
 
 
 // Pagination
-
 $pagination-padding-x:                .75rem !default;
 $pagination-padding-y:                .5rem !default;
 $pagination-padding-x-sm:             .5rem !default;
