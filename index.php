@@ -5,31 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<link rel="stylesheet" href="dist/css/bootstrap.css">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <title>Person on Website&reg;</title>
 </head>
 <body>
-<nav class="navbar bg-primary navbar-toggleable-md">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-  <a href="#" class="navbar-brand float-left">Person on Website</a>
-  <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
-    <div class="">
-      <ul class="nav nav-tabs justify-content-center">
-        <li class="nav-item nav-link active"><a href="#">Home</a></li>
-        <li class="nav-item dropdown"> 
-         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Spokespeople</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="#">Website Spokesperson</a> <a class="dropdown-item" href="#">Video Presentation</a> <a class="dropdown-item" href="#">Voice Over</a> </div>
-        </li>
-        <li class="nav-item nav-link"><a href="#">Whiteboard</a></li>
-        <li class="nav-item nav-link"><a href="#">Support</a></li>
-        <li class="nav-item nav-link"><a href="#">Testimonials</a></li>
-      </ul>
-      <!-- navbar-nav --> 
-    </div>
-  </div>
-  <a href="#" class="navbar-brand float-right">801-748-2281</a> </nav>
-<!-- nav -->
+<?php include("includes/header.php"); ?>
 <h1 class="text-hide">Custom heading</h1>
 <section class="container">
   <li class="media" id="production"> <a href="#" data-toggle="tooltip" title="#1 in Video Production"> <img class="card-img-top award d-block" src="http://websitetalkingheads.com/images/video-production-seal.png"  alt="Best in Video Production" /> </a>
@@ -134,41 +113,6 @@
     </div>
   </div>
 </section>
-<!-- content container -->
-<footer class="bg-primary">
-  <div class="row">
-    <div class="col-sm-4">
-      <h2 class="text-center"><a href="http://talkingheads.com/affiliate/">Powered by <span class="blue">Talking</span> Heads<span class="tm">&#174;</span></a></h2>
-      <div class="quotes">
-        <p id="changeQuote" class="text-center"></p>
-      </div>
-      <h3 class="text-center"><span class="white thin">Talking</span>Heads<span class="tm">&#174;</span></h3>
-    </div>
-    <div class="col-sm-4 text-center">
-      <h2 class="thin">Why Video?</h2>
-      <h3 class="italics"><a class="black" href="tel://801-748-2281" title="Let's Talk!" >"It's <span class="thin">Time</span> We Talk..."</a></h3>
-    </div>
-    <div class="col-sm-4">
-      <h2 class="text-center">Our Contact Information</h2>
-      <ul class="list-unstyled text-left white">
-        <li>
-          <h3 class="text-center"><i class="fa fa-phone"></i> <br/>
-            <span><a class="white" href="tel://801-748-2281" title="Give us a call." >801-748-2281</a></span></h3>
-        </li>
-        <li>
-          <h3 class="text-center"><i class="fa fa-envelope-o"></i><br/>
-            <a href="mailto:info@websitetalkingheads.com">info@websitetalkingheads.com</a></h3>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <h3 class="text-center"><span class="cw">&#169;</span>Talking Heads <span id="year"></span>. All rights reserved.</h3>
-</footer>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script> 
-<script src="dist/js/tether.min.js"></script> 
-<script src="dist/js/bootstrap.min.js"></script>
+<?php include("includes/footer.php"); ?>
 </body>
 </html>

@@ -17,11 +17,11 @@
         <li class="nav-item nav-link active"><a href="#">Home</a></li>
         <li class="nav-item dropdown"> 
          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> Spokespeople </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="#">Website Spokesperson</a> <a class="dropdown-item" href="#">Video Presentation</a> <a class="dropdown-item" href="#">Voice Over</a> </div>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="website_spokesperson">Website Spokesperson</a> <a class="dropdown-item" href="video_presentations">Video Presentations</a> <a class="dropdown-item" href="voice_overs">Voice Overs</a> </div>
         </li>
-        <li class="nav-item nav-link"><a href="#">Whiteboard</a></li>
-        <li class="nav-item nav-link"><a href="#">Support</a></li>
-        <li class="nav-item nav-link"><a href="#">Testimonials</a></li>
+        <li class="nav-item nav-link"><a href="whiteboard">Whiteboard</a></li>
+        <li class="nav-item nav-link"><a href="support">Support</a></li>
+        <li class="nav-item nav-link"><a href="testimonials">Testimonials</a></li>
       </ul>
       <!-- navbar-nav --> 
     </div>
