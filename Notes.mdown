@@ -1,0 +1,1 @@
+#New site notes#1. Support tab2. breadcrumbs with JQuery3. tagline- 'It's Time We Talk'4. Spokespeople subheadings  * Website Spokesperson  * Video Presentations  * Voice Overs5. Slider6. loading screen
