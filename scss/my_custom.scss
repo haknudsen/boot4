@@ -1,7 +1,7 @@
 /* Scss Document */
 //custom elements
-.seal{max-height: 180px;margin: 0 auto;padding: $spacer}
-.award{max-width: 360px;margin: 0 auto;padding: $spacer}
+.seal{max-height: 180px;margin: auto;padding: $spacer}
+.award{max-width: 360px;margin: auto;padding: $spacer}
 p{text-indent: $spacer*2;margin-bottom: $spacer}
 footer{padding: $spacer*2 $spacer*2 $spacer;margin-top: $spacer;}
 footer, nav{
@@ -22,3 +22,4 @@ body, html { height: 100%;
 .rights{font-size: 1rem;text-align: center}
 .list-footer{margin-bottom: 0}
 .quotes{font-size: 1.5rem;font-weight: 300}
+ul .media{border-bottom: thin solid $brand-primary;margin-bottom: $spacer}

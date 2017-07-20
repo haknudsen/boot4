@@ -2461,9 +2461,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover { color: #101112 !important; }
 
 /* Scss Document */
 /* Scss Document */
-.seal { max-height: 180px; margin: 0 auto; padding: 1rem; }
+.seal { max-height: 180px; margin: auto; padding: 1rem; }
 
-.award { max-width: 360px; margin: 0 auto; padding: 1rem; }
+.award { max-width: 360px; margin: auto; padding: 1rem; }
 
 p { text-indent: 2rem; margin-bottom: 1rem; }
 
@@ -2490,6 +2490,8 @@ body, html { height: 100%; }
 .list-footer { margin-bottom: 0; }
 
 .quotes { font-size: 1.5rem; font-weight: 300; }
+
+ul .media { border-bottom: thin solid #0275d8; margin-bottom: 1rem; }
 
 /* Scss Document */
 /* Text Weights */
